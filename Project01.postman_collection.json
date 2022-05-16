@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "932b0619-4360-42d2-a06d-0e8781e506af",
+		"name": "Project01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8082/bank-account/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/bank-account/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"bank-account",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/productBank/update/62803683bc9581102a136e3d",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"Cuentas Bancarias\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/productBank/update/62803683bc9581102a136e3d",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"productBank",
+						"update",
+						"62803683bc9581102a136e3d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/productBank/delete/62803683bc9581102a136e3d",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"Cuentas Bancarias\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/productBank/delete/62803683bc9581102a136e3d",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"productBank",
+						"delete",
+						"62803683bc9581102a136e3d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/bank-account/deposit/62828ea7125e6b2e8088e32f/350",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/bank-account/deposit/62828ea7125e6b2e8088e32f/350",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"bank-account",
+						"deposit",
+						"62828ea7125e6b2e8088e32f",
+						"350"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/productBank/create",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"Prueba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/productBank/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"productBank",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/client/delete/01",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/client/delete/01",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"client",
+						"delete",
+						"01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/client/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/client/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"client",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/client/create",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Orlando\",\r\n    \"lastName\": \"Palomino\",\r\n    \"documentNumber\": \"2372128\",\r\n    \"age\": \"49\",\r\n    \"type\": \"personal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8082/client/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"client",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/bank-account/withdraw/62828304021fe24d449fd9f9/700",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/bank-account/withdraw/62828304021fe24d449fd9f9/700",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"bank-account",
+						"withdraw",
+						"62828304021fe24d449fd9f9",
+						"700"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
